@@ -1,0 +1,202 @@
+
+.chart-container {
+  padding-left: 50px; /* Adds space on the left */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Keep everything centered */
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  flex-grow: 1
+}
+.chart-description {
+  font-size: 18px; /* Increase text size */
+  font-weight: 500; /* Make it slightly bold */
+  margin-bottom: 15px; /* Add spacing below */
+  color: #333; /* Darker text for better readability */
+  margin-bottom: 10px;
+  text-align: center;
+  max-width: 80%;
+}
+
+.time-selection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align to left */
+  margin-bottom: 15px;
+  width: 100%;
+  padding-left: 300px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.time-selection-container label {
+  font-size: 18px; /* Increase font size */
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.date-inputs label {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 8px; /* Increase padding for better spacing */
+  font-size: 100px; /* Increase font size inside input fields */
+  font-weight: bold;
+}
+
+.date-inputs {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.content-container {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  padding-left: 50px;
+  margin-top: 10px;
+}
+
+.left-text {
+  width: 25%;
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+  padding-right: 20px;
+}
+.chart-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  padding: 20px;
+}
+
+.additional-info {
+  width: 30%;
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+  padding-right: 20px;
+}
+
+.additional-info h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: left; */
+  padding-left: 10px;
+  margin-bottom: 20px;
+  gap: 15px;
+  width: 250px;
+}
+.content-wrapper {
+  display: flex;
+  align-items: left;  /* Align stats and chart side by side */
+  justify-content: flex-start;
+  gap: 250px; /* Adds space between stats and chart */
+  margin-top: 20px;
+  margin-right: 100px;
+}
+.stats-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  /* display: flex;
+  flex-direction: column;
+  gap: 10px;  */
+}
+
+.stats-box label {
+  font-weight: bold;
+}
+
+.stats-box p {
+  margin: 0;
+  text-align: right;
+}
+.time-selection-container label {
+  font-size: 18px; /* Increase font size */
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.date-inputs {
+  display: flex;
+  flex-direction: row;
+  gap: 15px; /* Add more spacing between inputs */
+  margin-top: 10px;
+}
+
+.date-inputs label {
+  font-size: 18px; /* Increase font size for From and To labels */
+  font-weight: bold;
+  padding: 8px; /* More padding for better spacing */
+  font-size: 16px; /* Increase font size inside input fields */
+  border: 1px solid #ccc; /* Light border for clarity */
+  border-radius: 5px; /* Slightly rounded corners */
+}
+.date-selection {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Increases spacing */
+  margin-top: 10px;
+}
+
+.date-selection label {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.date-selection input {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.graph_and_stat{
+  display: flex;
+  align-items: center; /* Centers items vertically */
+  /* justify-content: flex-start;  */
+  justify-content: space-between;
+  /* gap: 400px;   */
+  width: 100%;
+}
+
+
+.range-selection {
+  display: flex;
+  flex-direction: column; /* Stack label above dropdown */
+  align-items: flex-start; /* Align to the left */
+  gap: 5px; /* Space between label and dropdown */
+  margin-bottom: 10px;
+  justify-content: flex-start;
+  width: 100%;
+  margin-left: 45px;
+}
+
+.range-selection label {
+  font-weight: bold;
+}
+
+.range-selection select {
+  padding: 6px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  width: 100px; /* Adjust width if needed */
+}
+
